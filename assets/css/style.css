@@ -2089,3 +2089,30 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+@media (min-width: 300px){
+  .avatar-box img { width: 80px; }
+
+}
+
+@media (min-width: 400px) {
+ 
+  .avatar-box img { width: 80px; }
+
+
+  /**
+   * client
+   */
+
+  .clients-item { min-width: calc(33.33% - 10px); }
+
+
+
+  /**
+   * #PORTFOLIO, BLOG 
+   */
+
+  .project-img,
+  .blog-banner-box { height: auto; }
+
+}
