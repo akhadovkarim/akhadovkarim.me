@@ -1441,6 +1441,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 @media (min-width: 450px) {
 
+  .avatar-box img { width: 80px; }
+  
+
   /**
    * client
    */
@@ -1797,7 +1800,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     max-width: 680px;
   }
 
-  .modal-avatar-box img { width: 80px; }
+  .modal-avatar-box img { width: 50px; }
 
 
 
